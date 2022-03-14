@@ -1,0 +1,98 @@
+    <!--версия докумета. DOCTYPE - HTML5 -->
+<!DOCTYPE html>
+    <!--Язык документа-->
+<html lang="en">
+    <!--не отображается в документа. Доп. Информация-->
+<head>
+    <!--кодировка HTML5 файла-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Заголовок сайиа-->
+    <title>Test HTML Learn</title>
+</head>
+    <!--Отображается в документе. В body происходит верстка сайта-->
+<body>
+    <hr>
+    <table>
+        <tr>
+            <td>
+                <img src="https://avatars.mds.yandex.net/i?id=7a76c69fdea1516e7425265807db743c-5160870-images-thumbs&ref=rim&n=33&w=480&h=208" width = "100" height="100" alt="First Image" />
+            </td>
+            <td>
+                <h1>Alexander alov</h1>
+                <p><em>This Document i use to learn HTML and CSS coding. 
+                Because this is basic knowledge of Web Developing</p>
+                <!-- Tag <i> dont use, beacuse this Tag is too alt and 
+                Search Robots dont see this Tag. 
+                You must ust Tag <em> to italic (курсив)and <strong> to highlight (жирное выделение) -->
+            </td>
+        </tr>
+    </table>
+        <hr>
+        <br>
+            <h3>My Social Media</h3>
+        <ul >
+            <!-- List Tag-->
+            <!-- Tag <a> use to make a Link (for WedSite) target = "blank" - open in a new Window-->
+        <li><a href= "https://google.com" target="blank"> instagram</a></li>
+        <li><a href="https://ya.ru">telegramm</a> </li>
+        <li>vk.com</li>
+        </ul>
+        <br> 
+        <hr>
+        <!--Ordered List-->
+        <h2>Ordered List</h2>
+        <ol type = "I">
+            <li>This is --Ordered List</li>
+            <li>This is --Ordered List too</li>
+            <li>and this too</li>
+        </ol>
+        <br>
+        <hr>
+        <h4>My Expirience</h4>
+        <table border="10">
+            <thead>This is my Expirience</thead>
+            <tr>
+                <th>Company</th>
+                <th>Position</th>
+                <th>Year</th>
+            </tr>
+            <tr>
+                <td>Renal</td>
+                <td>Electrical Engineer</td>
+                <td>2007 - 2011</td>
+            </tr>
+            <tr>
+                <td>Kaeser</td>
+                <td>Service Engineer</td>
+                <td>2011 - 2016</td>
+            </tr>
+           
+        </table>
+    <hr>
+
+        <h4>YouToBe Courses</h4>
+        <a href="youtubeCourse.html" >Look Courses</a>
+
+    <hr>
+
+    <h2>Contact Us</h2>
+
+    <form action="youtubeCourse.html">
+        <label for="Name">Your Name:</label>
+        <input type="text" id="Name" placeholder="Write Your Name Here">
+        <br>
+        <label for="Email">Your Email:</label>
+        <input type="text" id="Email" placeholder="Write Your Email Here">
+        <br>
+
+        <label for="text">Your Message:</label>
+        <br>
+        <textarea name="text" id="text" cols="15" rows="2"></textarea>
+        <br>
+        <input type="submit" value="Contact Us">
+    </form>
+
+</body>
+</html>

@@ -1,98 +1,96 @@
-    <!--версия докумета. DOCTYPE - HTML5 -->
 <!DOCTYPE html>
-    <!--Язык документа-->
 <html lang="en">
-    <!--не отображается в документа. Доп. Информация-->
 <head>
-    <!--кодировка HTML5 файла-->
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--Заголовок сайиа-->
-    <title>Test HTML Learn</title>
+    <link  href="style.css" rel="stylesheet"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, 
+    shrink-to-fit=no" > 
+       
+    <title>Burning Man</title>
 </head>
-    <!--Отображается в документе. В body происходит верстка сайта-->
 <body>
-    <hr>
-    <table>
-        <tr>
-            <td>
-                <img src="https://avatars.mds.yandex.net/i?id=7a76c69fdea1516e7425265807db743c-5160870-images-thumbs&ref=rim&n=33&w=480&h=208" width = "100" height="100" alt="First Image" />
-            </td>
-            <td>
-                <h1>Alexander alov</h1>
-                <p><em>This Document i use to learn HTML and CSS coding. 
-                Because this is basic knowledge of Web Developing</p>
-                <!-- Tag <i> dont use, beacuse this Tag is too alt and 
-                Search Robots dont see this Tag. 
-                You must ust Tag <em> to italic (курсив)and <strong> to highlight (жирное выделение) -->
-            </td>
-        </tr>
-    </table>
-        <hr>
-        <br>
-            <h3>My Social Media</h3>
-        <ul >
-            <!-- List Tag-->
-            <!-- Tag <a> use to make a Link (for WedSite) target = "blank" - open in a new Window-->
-        <li><a href= "https://google.com" target="blank"> instagram</a></li>
-        <li><a href="https://ya.ru">telegramm</a> </li>
-        <li>vk.com</li>
-        </ul>
-        <br> 
-        <hr>
-        <!--Ordered List-->
-        <h2>Ordered List</h2>
-        <ol type = "I">
-            <li>This is --Ordered List</li>
-            <li>This is --Ordered List too</li>
-            <li>and this too</li>
-        </ol>
-        <br>
-        <hr>
-        <h4>My Expirience</h4>
-        <table border="10">
-            <thead>This is my Expirience</thead>
-            <tr>
-                <th>Company</th>
-                <th>Position</th>
-                <th>Year</th>
-            </tr>
-            <tr>
-                <td>Renal</td>
-                <td>Electrical Engineer</td>
-                <td>2007 - 2011</td>
-            </tr>
-            <tr>
-                <td>Kaeser</td>
-                <td>Service Engineer</td>
-                <td>2011 - 2016</td>
-            </tr>
-           
-        </table>
-    <hr>
-
-        <h4>YouToBe Courses</h4>
-        <a href="youtubeCourse.html" >Look Courses</a>
-
-    <hr>
-
-    <h2>Contact Us</h2>
-
-    <form action="youtubeCourse.html">
-        <label for="Name">Your Name:</label>
-        <input type="text" id="Name" placeholder="Write Your Name Here">
-        <br>
-        <label for="Email">Your Email:</label>
-        <input type="text" id="Email" placeholder="Write Your Email Here">
-        <br>
-
-        <label for="text">Your Message:</label>
-        <br>
-        <textarea name="text" id="text" cols="15" rows="2"></textarea>
-        <br>
-        <input type="submit" value="Contact Us">
-    </form>
-
+    <header id="header" class="header">
+        <div class="container">
+            <div class="nav">
+                <img src="img/logo.svg" alt="Burning man" class="logo">
+                <ul class="menu">
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="#">Tickets</a>
+                    </li>
+                    <li>
+                        <a href="#">Contacts</a>
+                    </li>
+                    
+                </ul>
+                <a href="tel: +18938392364" class="tel">
+                    +18938392364
+                </a>
+                <button class="menu-open">
+                    <img src="img/menu.svg" alt="Open menu">
+                </button>
+            </div>
+            <div class="offer">
+                    <p>Not the event.The life</p>
+                    <h1>
+                        Burning MAN
+                    </h1>
+                    <a href="#" class="btn">Book the tickets</a>
+            </div>
+        </div>
+    </header>
+    <section id="secton" class="section">
+        <div class="container">
+            <h2>About the event</h2>
+            <div class="description">
+                <div class="desc-left">
+                    <h3>Rebuilding the society</h3>
+                    <p>
+                        Burning Man is a network of people inspired by the values reflected 
+                        in the Ten Principles and united in the pursuit of a more creative 
+                        and connected existence in the world. Throughout the year we work 
+                        to build Black Rock City, home of the largest annual Burning Man 
+                        gathering, and nurture the distinctive culture emerging from that experience. 
+                    </p>
+                </div>
+                <div class="desc-right">
+                    <h3>This drives us</h3>
+                    <p>
+                        Burning Man Project will bring experiences to people in grand, 
+                        awe-inspiring and joyful ways that lift the human spirit, 
+                        address social problems, and inspire a sense of culture, community, 
+                        and civic engagement. Burning Man provides infrastructural tools and 
+                        frameworks to support local communities in applying the Ten Principles 
+                        through six interconnected program areas, including Arts, Civic Involvement, 
+                        Culture, Education, Philosophical Center, and Social Enterprise.
+                    </p>
+                </div>
+            </div>
+            <div class="gallery">
+                <img src="img/img1.jpg" alt="Event photo 1">
+                <img src="img/img2.jpg" alt="Event photo 2">
+                <img src="img/img3.jpg" alt="Event photo 3">
+            </div>
+        </div>
+    </section>
+    <footer id="footer" class="footer">
+        <div class="container">
+            <div class="footer-text">
+                <p>
+                    1989 - 2020 burning man Project
+                </p>
+                <p>
+                    AlexanderAlov
+                </p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
